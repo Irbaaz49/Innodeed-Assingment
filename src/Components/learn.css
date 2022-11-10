@@ -1,0 +1,42 @@
+.car{
+    height: 80vh;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.p{
+    color: grey;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+.info{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+.spans{
+  color: gray;
+  margin-left: 4px;
+  font-size:12px ;
+  font-weight: 400;
+}
+#bttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+    font-size: 15px;
+}
+@media only screen and (max-width: 600px) {
+.car{
+    position: relative;
+    left: 10%;
+}
+
+}
